@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilow.css')}}">
+    <title>Inicio</title> 
+</head>
+
+<body>
+    
+    <div class="Perfil">
+        <img src="{{ url_for('static', filename='imagenes/william/PhotoFunia-1602741756.jpg') }}" alt="Perfil" height="500px" width="auto">
+    </div>
+
+    <div class="Datos">
+        <h1>
+            William Enrique Forero Neira
+        </h1>
+        <h2>
+            20182020080
+        </h2>
+    </div>
+    
+    <div class="Header2">
+            <table>
+                <tr>
+                    <th>
+                        <a href="{{ url_for('home')}}">Pagina principal</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('williams')}}">Datos Personales</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('williamt')}}">Formacion Academica</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('williamc')}}">Intereses</a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+</body>
+
+

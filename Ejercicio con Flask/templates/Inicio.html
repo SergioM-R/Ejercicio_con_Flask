@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilop.css')}}">
+    </head>
+    <body>
+        <h1 align="center">Hojas de vida</h1>
+        <hr>
+        <div class="info">
+            <p align="center"><i>Luisa María Lugo Flórez</i></p>
+            <p align="center"><i>Código: 20182020103</i></p>
+            <p align="center"><i>Ingeniería de Sistemas</i></p>
+        </div>
+        <div align="center"><img src="{{ url_for('static', filename='imagenes/inicio/lu.png') }}" width="500px"></div>
+        <nav class="navegar">
+            <a href="{{ url_for('luisas')}}">Ir a la hoja de vida de Luisa</a><br>
+        </nav>
+        <hr>
+        <div class="info">
+            <p align="center"><i>Sergio Miranda</i></p>
+            <p align="center"><i>Código: 20182020064</i></p>
+            <p align="center"><i>Ingeniería de Sistemas</i></p>
+        </div>
+        <div align="center"><img src="{{ url_for('static', filename='imagenes/inicio/sergio.jpeg') }}" width="500px"></div>
+        <nav class="navegar">
+            <a href="{{ url_for('sergios')}}">Ir a la hoja de vida de Sergio</a><br>
+        </nav>
+        <hr>
+        <div class="info">
+            <p align="center"><i>William Forero</i></p>
+            <p align="center"><i>Código: 20182020080</i></p>
+            <p align="center"><i>Ingeniería de Sistemas</i></p>
+        </div>
+        <div align="center"><img src="{{ url_for('static', filename='imagenes/inicio/foto.jpg') }}" width="500px"></div>
+        <nav class="navegar">
+            <a href="{{ url_for('williams')}}">Ir a la hoja de vida de William</a><br>
+        </nav>
+    </body>
+</html> 

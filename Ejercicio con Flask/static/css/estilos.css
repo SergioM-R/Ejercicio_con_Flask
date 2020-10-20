@@ -1,0 +1,55 @@
+body {
+    font-family: 'oswald',sans-serif;
+    font-size: 1em;
+    background-image: url(https://fondosmil.com/fondo/19436.jpg);
+    background-position: center;
+    overflow: hidden;
+    height: 80vh;
+}
+
+h1 {
+    color: lightgray;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+h2 {
+    color: lightgray;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+th,tr,td{
+    border: 2px solid #000000;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.datos {
+    background-color: black;
+    color: white;
+}
+
+.datos2 {
+    background-color: #979797;
+}
+
+.datos3 {
+    background-color: orange;
+    color: black;
+}
+
+.datos4 {
+    background-color: #00bd6d;
+    color: black;
+}
+
+.dtos {
+    color: white;
+}
+
+.img {
+    width: 220px;
+    height: 280px;
+    border-radius: 150px;
+}

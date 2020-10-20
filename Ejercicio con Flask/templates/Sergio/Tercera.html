@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Formación</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css')}}">
+        <style>
+            html,body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <center><nav>
+            <table>
+                 <tr>
+                    <td class="datos2"><a href="{{ url_for('home')}}">Pagina principal</a></td><td class="datos2"><a href="{{ url_for('sergio')}}">Sergio</a></td><td class="datos2"><a href="{{ url_for('sergios')}}">Datos basicos</a></td><td class="datos2"><a href="{{ url_for('sergioc')}}">Tecnologias de interes</a></td>
+                 </tr>
+             </table>
+         </nav></center>
+        <center><p><h1>Formacion academica</h1></p></center>
+        <center><table>
+            <tr>
+                <th class="datos3">Graduado de bachillerato en </th><th class="datos2">Saludcoop Norte</th>
+            </tr>
+            <tr>
+                <th class="datos3">Universidad actual</th><th class="datos2">Universidad Distrital Francisco José de Caldas</th>
+            </tr>
+            <tr>
+                <th class="datos3">Proyecto curricular</th><th class="datos2">Ingenieria de sistemas</th>
+            </tr>
+            <tr>
+                <th class="datos3">Semestres cursados</th><th class="datos2">Cuatro</th>
+            </tr>
+            <tr>
+                <th class="datos3">Matricula actual</th><th class="datos2">Quinta matricula</th>
+            </tr>
+            </table></center>
+    </body>
+</html>

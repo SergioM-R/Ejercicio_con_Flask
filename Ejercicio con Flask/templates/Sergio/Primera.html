@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css')}}">
+    </head>
+    <body>
+        <nav>
+            <center><table>
+                 <tr>
+                     <td class="datos2"><a href="{{ url_for('home')}}">Pagina principal</a></td><td class="datos2"><a href="{{ url_for('sergios')}}">Datos basicos</a></td><td class="datos2"><a href="{{ url_for('sergiot')}}">Formación</a></td><td class="datos2"><a href="{{ url_for('sergioc')}}">Tecnologias de interes</a></td>
+                 </tr>
+             </table></center>
+         </nav>
+        <center><img src="{{ url_for('static', filename='imagenes/sergio/foto1.jpeg') }}" width="240pe" class="img"><br>
+        <p><h1>Sergio Andres Miranda Ruiz</h1></p>
+        <p><h2>Código: 20182020064</h2></p></center>
+    </body>
+</html>

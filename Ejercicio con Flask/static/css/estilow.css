@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+
+.Header{
+    width: 70%;
+    height: 75px;
+    
+    position: relative;
+    left:200px;
+}
+
+.Header table{
+    font-style: none;
+    color: deeppink;
+    padding-left: 40px;
+    border-spacing: 35px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+a{
+    color: deeppink;
+    text-decoration: dashed;
+}
+
+.Detallitos{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left:200px;
+    
+}
+
+.Detallitos img{
+   width: 400px;
+   height: 400px;
+ 
+}
+
+
+.DatosPersonales{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    color: greenyellow;
+    position: absolute;
+    top: 180px;
+    left: 610px;
+}
+.DatosPersonales th{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.intereses{
+    color: chartreuse;
+}
+.intereses table{
+    width: 85%;
+}
+
+.intereses table p{
+    text-align: justify;
+    text-decoration: solid;
+    padding: 40px;
+    border-spacing: 35px;
+}
+
+.Perfil img{
+    border-radius: 70%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    
+    
+}
+
+.Datos{
+    color: aqua;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.Header2{
+    width: 70%;
+    height: 75px;
+    
+   position: absolute;
+   top: 350px;
+left: 630px;
+}
+
+.Header2 table{
+    font-style: none;
+    color: deeppink;
+    padding-left: 40px;
+    border-spacing: 35px;
+    text-align: center;
+    font-size: 20px;
+    
+}

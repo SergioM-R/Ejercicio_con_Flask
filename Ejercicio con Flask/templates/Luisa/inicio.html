@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilol.css')}}">
+    </head>
+    <body>
+        <h1 align="center">Luisa María Lugo Flórez</h1>
+        <hr>
+        <div class="info">
+            <p align="center"><i>Código: 20182020103</i></p>
+            <p align="center"><i>Ingeniería de Sistemas</i></p>
+        </div>
+        <div align="center"><img src="{{ url_for('static', filename='imagenes/luisa/lu.png') }}" width="500px"></div>
+        <nav class="navegar">
+            <a href="{{ url_for('home')}}">Pagina principal</a>
+            <a href="{{ url_for('luisas')}}">Datos básicos</a><br>
+            <a href="{{ url_for('luisat')}}">Formación</a><br>
+            <a href="{{ url_for('luisac')}}">Intereses</a>
+        </nav>
+    </body>
+</html> 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilow.css')}}">
+    <title>Formación</title>
+</head>
+<body>
+    <div class="Header">
+        <center>
+            <table>
+                <tr>
+                    <th>
+                        <a href="{{ url_for('home')}}">Pagina principal</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('william')}}">William</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('williams')}}">Datos Personales</a>
+                    </th>
+                    <th>
+                        <a href="{{ url_for('williamc')}}">Intereses</a>
+                    </th>
+                </tr>
+            </table>
+        </center>
+        </div>
+        <div>
+            <center>
+            <img src="{{ url_for('static', filename='imagenes/william/academica.png') }}" alt="formacionacademica" width="100%" height="600">
+            </center> 
+        </div>
+</body>
+

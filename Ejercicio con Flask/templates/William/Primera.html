@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilow.css')}}">
+    <title>Datos básicos</title>
+</head>
+<body>
+    <div class="Header">
+    <center>
+        <table>
+            <tr>
+                <th>
+                    <a href="{{ url_for('home')}}">Pagina principal</a>
+                </th>
+                <th>
+                    <a href="{{ url_for('william')}}">William</a>
+                </th>
+                <th>
+                    <a href="{{ url_for('williamt')}}">Formacion Academica</a>
+                </th>
+                <th>
+                    <a href="{{ url_for('williamc')}}">Intereses</a>
+                </th>
+            </tr>
+        </table>
+    </center>
+    </div>
+
+    <div class="Detallitos">
+        <img src="{{ url_for('static', filename='imagenes/william/Detallitos.png') }}" alt="datos personales">
+    </div>
+
+    <div class="DatosPersonales">
+    <center>
+        <table>
+            <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    William Enrique Forero Neira
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    Fecha de Nacimeinto
+                </th>
+                <th>
+                    18/10/98
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    Edad
+                </th>
+                <th>
+                    21
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Ciudad de Residencia
+                </th>
+                <th>
+                    BogotaDC
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Correo
+                </th>
+                <th>
+                    weforeron@correo.udistrital.edu.co
+                </th>
+            </tr>
+        </table>
+    </center>
+    </div>
+
+    
+</body>
